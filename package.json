@@ -8,7 +8,7 @@
   "license": "MIT",
   "reveal": true,
   "bin": {
-    "gp": "index.js"
+    "commit-emoji": "index.js"
   },
   "scripts": {
     "test": "standard"
