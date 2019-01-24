@@ -4,7 +4,7 @@
   "description": "Performs a git commit with a random emoji message.",
   "main": "index.js",
   "repository": "transitive-bullshit/commit-emoji",
-  "author": "Travis Fischer <travis@automagical.ai>",
+  "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
   "reveal": true,
   "bin": {
