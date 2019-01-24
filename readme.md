@@ -1,6 +1,6 @@
 # commit-emoji
 
-> Performs a git commit with a random emoji message. 🏂🦊👏😂😂😂
+> Performs a git commit with a random emoji message. 😂😂😂
 
 [![NPM](https://img.shields.io/npm/v/commit-emoji.svg)](https://www.npmjs.com/package/commit-emoji) [![Build Status](https://travis-ci.com/transitive-bullshit/commit-emoji.svg?branch=master)](https://travis-ci.com/transitive-bullshit/commit-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
