@@ -1,6 +1,6 @@
 {
   "name": "commit-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Performs a git commit with a random emoji message.",
   "main": "index.js",
   "repository": "transitive-bullshit/commit-emoji",
