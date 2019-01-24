@@ -1,7 +1,7 @@
 {
   "name": "commit-emoji",
   "version": "0.0.0",
-  "description": "CLI for performing a git commit with a random emoji message",
+  "description": "Performs a git commit with a random emoji message.",
   "main": "index.js",
   "repository": "transitive-bullshit/commit-emoji",
   "author": "Travis Fischer <travis@automagical.ai>",
