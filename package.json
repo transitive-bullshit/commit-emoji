@@ -6,26 +6,33 @@
   "repository": "transitive-bullshit/commit-emoji",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
-  "reveal": true,
+  "packageManager": "pnpm@10.11.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
   "bin": {
     "commit-emoji": "index.js"
   },
   "scripts": {
-    "test": "standard"
+    "test": "run-s test:*",
+    "test:format": "prettier --check \"**/*.{js,ts,tsx}\"",
+    "test:lint": "eslint --cache ."
   },
-  "engines": {
-    "node": ">=4"
+  "dependencies": {
+    "execa": "^9.6.0",
+    "random-item": "^4.0.1"
   },
+  "devDependencies": {
+    "@fisch0920/config": "^1.1.2",
+    "eslint": "^9.29.0",
+    "npm-run-all2": "^8.0.4",
+    "prettier": "^3.5.3"
+  },
+  "prettier": "@fisch0920/config/prettier",
   "keywords": [
     "git",
     "commit",
     "emoji"
-  ],
-  "devDependencies": {
-    "standard": "^12.0.1"
-  },
-  "dependencies": {
-    "execa": "^1.0.0",
-    "random-item": "^1.0.0"
-  }
+  ]
 }

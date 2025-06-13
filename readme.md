@@ -2,7 +2,10 @@
 
 > Performs a git commit with a random emoji message. 😂😂😂
 
-[![NPM](https://img.shields.io/npm/v/commit-emoji.svg)](https://www.npmjs.com/package/commit-emoji) [![Build Status](https://travis-ci.com/transitive-bullshit/commit-emoji.svg?branch=master)](https://travis-ci.com/transitive-bullshit/commit-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<p>
+  <a href="https://github.com/transitive-bullshit/commit-emoji/actions/workflows/main.yml"><img alt="Build Status" src="https://github.com/transitive-bullshit/commit-emoji/actions/workflows/main.yml/badge.svg" /></a>
+  <a href="https://prettier.io"><img alt="Prettier Code Formatting" src="https://img.shields.io/badge/code_style-prettier-brightgreen.svg" /></a>
+</p>
 
 ## Install
 
