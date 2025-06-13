@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
-import execa from 'execa'
+import { execa } from 'execa'
 import randomItem from 'random-item'
 
-import emoji from './emoji'
+import emoji from './emoji.js'
 
 export async function main() {
   const message = randomItem(emoji)
   const cmd = `git commit -am "${message}"`
   console.log(cmd)
-  execa.shellSync(cmd, { stdio: 'inherit' })
+  await execa('git', ['commit', '-am', message])
 }
 
 await main().catch((err) => {
